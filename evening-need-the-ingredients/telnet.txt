@@ -1,0 +1,30 @@
+After esentially using the same framework of code from today's To Do List
+reading, I reformatted the variables 'tasks' to be ingredient (or ingredient)
+so that the code was usable. differentiating between ingredients and ingredient
+actually helped to determine which variables or folder paths were misbehaving.
+
+The hardest part then was getting everything to work and getting
+POST to actually POST. (insert joke about going postal)
+
+Fact checking my text thoroughly was a big factor: instead of bashing my
+head against a wall, I took a deep breath and re-read everything.
+
+POST /ingredients HTTP/1.1
+Host: localhost
+Content-Length: 51
+
+ingredients=1/2+teaspoon+freshly+ground+black+pepper
+
+
+POST /ingredients HTTP/1.1
+Host: localhost
+Content-Length: 39
+
+ingredients=3+tablespoons+good+olive+oil
+
+
+POST /ingredients HTTP/1.1
+Host: localhost
+Content-Length: 37
+
+ingredients=3/4+tablespoon+kosher+salt
